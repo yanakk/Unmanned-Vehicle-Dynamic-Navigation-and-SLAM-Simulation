@@ -2,7 +2,7 @@
 One of the projects of the "Robot Design and Practice" course for the 2019-2020 academic year. Simulate in RViz and Gazebo.
 
 The content includes:
-- A star route plan, DWA dynamic obstacle avoidance, and dynamic re-plan [[code]](https://github.com/yanakk/Unmanned-Vehicle-Dynamic-Navigation-and-SLAM-Simulation/tree/master/src/c5/course_agv_nav/scripts)
+- A-star route plan, DWA dynamic obstacle avoidance, and dynamic re-plan [[code]](https://github.com/yanakk/Unmanned-Vehicle-Dynamic-Navigation-and-SLAM-Simulation/tree/master/src/c5/course_agv_nav/scripts)
 - Iterative Closest Point (ICP) localization [[code]](https://github.com/yanakk/Unmanned-Vehicle-Dynamic-Navigation-and-SLAM-Simulation/blob/master/src/course_agv_slam_task/src/icp_lm.cpp)
 - Laser-based road sign extraction [[code]](https://github.com/yanakk/Unmanned-Vehicle-Dynamic-Navigation-and-SLAM-Simulation/blob/master/src/course_agv_slam_task/src/extraction.cpp)
 - Extended Kalman Filter (EKF) SLAM [[code]](https://github.com/yanakk/Unmanned-Vehicle-Dynamic-Navigation-and-SLAM-Simulation/blob/master/src/course_agv_slam_task/src/ekf.cpp)
