@@ -1,0 +1,21 @@
+<launch>
+
+	<node pkg="course_agv_slam_task" type="particle_filter" name="particle_filter" output="screen">
+		
+		<!--from a rosbag-->
+        <param name="init_x" value="0"/>
+        <param name="init_y" value="0"/>
+        <param name="init_theta" value="0"/>
+
+        <param name="init_rand_xy" value="1"/>
+        <param name="init_rand_theta" value="1.0"/>
+	<param name="particle_num" value="100"/>
+	<param name="th" value="0.5"/>
+
+	<param name="world_frame" value="/map"/>
+	<param name="robot_frame" value="/robot_base"/>
+
+	</node>
+
+    <node pkg="rviz" type="rviz" name="rviz" args="-d $(find course_agv_slam_task)/launch/course_agv.rviz" />
+</launch>

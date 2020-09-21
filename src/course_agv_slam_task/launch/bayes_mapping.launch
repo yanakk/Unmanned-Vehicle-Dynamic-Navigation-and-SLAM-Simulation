@@ -1,0 +1,22 @@
+<launch>
+
+	<node pkg="course_agv_slam_task" type="bayes_mapping" name="bayes_mapping" output="screen">
+		
+		<!--from a rosbag-->
+		<param name="world_frame" value="/map"/>
+		<param name="sensor_frame" value="/robot_base"/>
+
+		<param name="map_height" value="80"/>
+		<param name="map_width" value="80"/>
+		<param name="map_res" value="0.25"/>
+		<param name="judge_ratio" value="0.75"/>
+
+		<param name="P_occu" value="0.6"/>
+		<param name="P_free" value="0.4"/>
+		<param name="th_occu" value="1.5"/>
+		<param name="th_free" value="0.4"/>
+
+	</node>
+
+    <!--<node pkg="rviz" type="rviz" name="rviz" args="-d $(find course_agv_slam_task)/launch/course_agv.rviz" />-->
+</launch>

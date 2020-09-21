@@ -1,0 +1,17 @@
+<launch>
+
+	<node pkg="course_agv_slam_task" type="mapping" name="mapping" output="screen">
+		
+		<!--from a rosbag-->
+		<param name="world_frame" value="/map"/>
+		<param name="sensor_frame" value="/robot_base"/>
+
+		<param name="map_height" value="80"/>
+		<param name="map_width" value="80"/>
+		<param name="map_res" value="0.25"/>
+		<param name="judge_ratio" value="0.75"/>
+
+	</node>
+
+    <node pkg="rviz" type="rviz" name="rviz" args="-d $(find course_agv_slam_task)/launch/course_agv.rviz" />
+</launch>

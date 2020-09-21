@@ -1,0 +1,17 @@
+<launch>
+
+	<node pkg="course_agv_slam_task" type="icp_lm" name="icp_lm" output="screen">
+		
+		<!--from a rosbag-->
+		<param name="robot_x" value="0"/>
+		<param name="robot_y" value="0"/>
+		<param name="robot_theta" value="0"/>
+
+		<param name="max_iter" value="20"/>
+		<param name="tolerance" value="0.0006"/>
+		<param name="dis_th" value="0.002"/>
+		<param name="min_match" value="3"/>
+	</node>
+	<!--<node pkg="course_agv_slam_task" type="extraction" name="extraction" args="-d $(find course_agv_slam_task)/launch/course_agv.rviz" />-->
+
+</launch>

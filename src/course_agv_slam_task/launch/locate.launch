@@ -1,0 +1,6 @@
+<launch>
+
+    <node pkg="course_agv_slam_task" type="extraction" name="extraction" args="-d $(find course_agv_slam_task)/launch/extraction.launch" />
+    <node pkg="course_agv_slam_task" type="icp_lm" name="icp_lm" args="-d $(find course_agv_slam_task)/launch/icp_lm.launch" />
+
+</launch>
