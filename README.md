@@ -45,10 +45,10 @@ Images:
 
 
 <div align="center">
-<img src="https://github.com/yanakk/6-DOF-Robotic-Arm-Hitting-Bell-Task/blob/master/probot_gazebo/img/mapping.png" height="395" width="395" >
+<img src="https://github.com/yanakk/Unmanned-Vehicle-Dynamic-Navigation-and-SLAM-Simulation/blob/master/img/mapping.png" height="395" width="395" >
 </div>
 
 
 <div align="center">
-<img src="https://github.com/yanakk/6-DOF-Robotic-Arm-Hitting-Bell-Task/blob/master/probot_gazebo/img/nav.png" height="157" width="385" >
+<img src="https://github.com/yanakk/Unmanned-Vehicle-Dynamic-Navigation-and-SLAM-Simulation/blob/master/img/nav.png" height="157" width="385" >
 </div>
