@@ -50,5 +50,5 @@ Images:
 
 
 <div align="center">
-<img src="https://github.com/yanakk/Unmanned-Vehicle-Dynamic-Navigation-and-SLAM-Simulation/blob/master/img/nav.png" height="157" width="385" >
+<img src="https://github.com/yanakk/Unmanned-Vehicle-Dynamic-Navigation-and-SLAM-Simulation/blob/master/img/nav.png" height="235" width="385" >
 </div>
